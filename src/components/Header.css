@@ -1,0 +1,188 @@
+/* src/components/Header.css */
+.conatiner {
+  position: relative;
+}
+.header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px; /* Set the desired height */
+  position: relative;
+}
+
+.navbar {
+  background-color: transparent;
+}
+/* Add additional styling as needed */
+#overlayer {
+  position: absolute;
+  z-index: 33;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 8px 4px;
+  background-color: white;
+  width: 600px;
+}
+.search > input {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: medium;
+}
+.nav {
+  background-color: #000000a9;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.courses {
+  background-color: #00000075;
+  height: 40px;
+}
+.selectGoal {
+  position: relative;
+  z-index: 999;
+}
+.selectGoal:hover {
+  cursor: pointer;
+}
+.selectedDropdown {
+  width: 700px;
+  height: 500px;
+  border: 1px solid lightgray;
+  position: absolute;
+  top: 40px;
+  border-radius: 8px;
+  background-color: white;
+  display: none;
+}
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1.5rem;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.courses > div {
+  padding: 6px 2px;
+}
+.courses > div:hover {
+  cursor: pointer;
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+.sideNav {
+  width: 300px;
+  height: 100vh;
+  border: 1px solid lightgray;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  background-color: white;
+}
+.findCollageSearch {
+  width: 75%;
+  height: 240px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.typing {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+}
+.inputButtons {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+.inputButtons > button:nth-child(1):hover {
+  cursor: pointer;
+}
+.recentVisit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  padding: 10px;
+}
+.needCounselling > button {
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.needCounselling > button:hover {
+  background-color: rgb(165, 109, 6);
+  cursor: pointer;
+}
+.recentVisit > div:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+}
+.recentVisit > div:nth-child(2) {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.recentVisit > div:nth-child(3) {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.recentVisit > div:nth-child(3):hover {
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.308);
+}
+.recentVisit > div:nth-child(2):hover {
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.308);
+}
+.searchContainer {
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  min-height: 400px;
+  width: 100%;
+  z-index: 999;
+}
+.findSearchBox {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  padding: 0px 10px 0px 0px;
+  gap: 1rem;
+}
+.findSearchBox input{
+  border: none;
+  outline: none;
+  font-size: 25px;
+  width: 95%;
+  height: 95%;
+
+}
+.searchSuggetion{
+    background-color: lightgray;
+    height: 350px;
+}

@@ -1,0 +1,151 @@
+.sections{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+.sections>div{
+    text-align: center;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    border-radius: 7px;
+
+}
+.registerContainer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid lightgray;
+}
+
+.admissionProcess{
+    width: 30%;
+    background-color: lightgray;
+    padding: 1rem;
+}
+.admissionProcess>div:nth-child(1){
+    padding: 1rem 10px;
+    text-align: left;
+    font-weight: 600;
+}
+.admissionProcess>div:nth-child(3){
+    padding: 1rem 10px;
+    text-align: left;
+    font-weight: 600;
+}
+.registerForm{
+    width: 65%;
+    padding: 10px 1rem;
+}
+form{
+    margin-top: 2rem;
+}
+.testimonials{
+    
+}
+.formHeaders{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 110px;
+    /* border: 1px solid red; */
+}
+.regTitleIcon{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+.inputs>div:nth-child(1){
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.inputs>div:nth-child(2){
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.inputs>div:nth-child(3){
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.inputs>div:nth-child(4){
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.courseListInputParent>div{
+    width: 98%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.courseListInputParent>div:nth-child(1){
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.courseListInputParent>div:nth-child(1)>input{
+    width: 98%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.inputs>div:nth-child(5):nth-child(2){
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.inputs>div>input{
+    width: 98%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.coursesList{
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-top: 0.5rem;
+    overflow: auto;
+    background-color: white;
+    color: gray;
+}
+.coursesList>div:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+.coursesList>div>div{
+    padding: 1rem;
+    color: gray;
+}
+.coursesList>div::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: lightgray; /* Choose your desired color */
+}
+form>div:nth-child(3)>div:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+form>div:nth-child(3)>input:hover{
+    background-color: rgb(114, 77, 9);
+    cursor: pointer;
+}
